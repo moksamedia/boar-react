@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
-import fuelSavingsAppState from './fuelSavings';
+import boarAppState from './boarReducers';
+import {reducer as form} from 'redux-form';
 
 const rootReducer = combineReducers({
-  fuelSavingsAppState
+  boarAppState: boarAppState,
+  form: form
 });
 
 export default rootReducer;

@@ -43,7 +43,7 @@ const getEntry = function (env) {
     entry.push('webpack-hot-middleware/client');
   }
 
-  entry.push('./src/index');
+  entry.push('./src/index-single');
 
   return entry;
 };
